@@ -2,6 +2,8 @@
 
 libsoc uses the GNU Autotools build system to configure and compile the library. Autotools was chosen as it is a very well supported and mature build system. It can cross-compile code with minimal fuss and includes many useful features.
 
+---
+
 ### Setting up Autotools
 
 First, ensure that your distro has the autotools suite installed. You can check this by making sure the binaries autoconf and automake can be found. Once confirmed these tools are available you can either run the script `autogen.sh` from the root of the libsoc git repo or run `autoreconf -i` to install the autotools environment to the directory.
