@@ -1,5 +1,3 @@
-# Title
+# libsoc Wiki
 
-Some text
-
-[a relative link](1.md)
+[1. Building libsoc](building_libsoc.md)
