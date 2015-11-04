@@ -6,6 +6,8 @@ libsoc uses the GNU Autotools build system to configure and compile the library.
 
 First, ensure that your distro has the autotools suite installed. You can check this by making sure the binaries autoconf and automake can be found. Once confirmed these tools are available you can either run the script `autogen.sh` from the root of the libsoc git repo or run `autoreconf -i` to install the autotools environment to the directory.
 
+---
+
 ### Running Configure
 
 Once your autotools environment is fully setup as per above, you can then move onto configuring the options with which to build the library. This is the point where you can configure additional libsoc features, set your cross compile tools and set your installation paths.
@@ -42,8 +44,12 @@ Disables the compiling and inclusion of the debug functions. Should only be used
 
 `./configure --enable-board=beaglebone`
 
+---
+
 ### Running Make
 
 Once properly configured you can then compile the library by running a simple `make`. Then to install the library into the system dirs, a `make install` will suffice.
+
+---
 
 [Return to Index](README.md)
